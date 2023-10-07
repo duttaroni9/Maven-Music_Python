@@ -1,2 +1,6 @@
 # Maven-Music_Python
-Maven Music Data Analysis_Python
+Maven Music Data Analysis project has been made based on python coding in Jupyter Notebook with a small part of real time data. At first python libraries like numpy, pandas, matplotlib & seaborn are imported in Jupyter Notebook. 
+Then data gathering has been done by uploading csv & excel files & then some data cleaning has done by converting the data types. 
+After that data mining has done by converting Nan values into numeric ‘0’ & then new column has been added to find out customers data who had cancelled their subscription plan irrespective of discount.
+In EDA customers’ tenacity has been checked & also cancellation rate has been calculated based on discount & Data Frame has been showcased through bar plot based on customers’ ‘Had Discount’ & customers’ ‘Did not Have Discount’. Later data frames has been joined to get some insight about customers’ listening history & showcased through histogram based on customer ID & session ID. 
+Finally Data Modeling has been prepared with the help of left join & by adding a new column for Podcast & then ‘%’ was calculated for Pop music listener & Podcast listener & then fair plot the has been used to establish the correlation between customers’ Data Frame.
